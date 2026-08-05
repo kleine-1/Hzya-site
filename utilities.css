@@ -1,0 +1,13 @@
+/* SPACING */
+.mt-20 { margin-top: 20px; }
+.mb-20 { margin-bottom: 20px; }
+.mt-40 { margin-top: 40px; }
+.mb-40 { margin-bottom: 40px; }
+
+/* FLEX */
+.flex { display: flex; }
+.flex-center { display: flex; justify-content: center; align-items: center; }
+
+/* OPACITY */
+.op-5 { opacity: 0.5; }
+.op-7 { opacity: 0.7; }
