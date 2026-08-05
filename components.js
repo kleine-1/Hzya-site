@@ -7,4 +7,14 @@ function loadComponent(id, file) {
 document.addEventListener("DOMContentLoaded", () => {
     loadComponent("navbar", "navbar.html");
     loadComponent("footer", "footer.html");
+    loadComponent("hero", "hero.html");
+    loadComponent("marquee", "marquee.html");
+    loadComponent("features", "features.html");
+    loadComponent("bigstats", "big-stats.html");
+    loadComponent("reviews", "reviews.html");
+    loadComponent("faq", "faq-list.html");
+    loadComponent("products", "products.html");
+    loadComponent("about", "about-text.html");
+    loadComponent("contact", "contact-cards.html");
+
 });
