@@ -16,5 +16,10 @@ document.addEventListener("DOMContentLoaded", () => {
     loadComponent("products", "products.html");
     loadComponent("about", "about-text.html");
     loadComponent("contact", "contact-cards.html");
-
+    loadComponent("features", "feature-card-01.html");
+    loadComponent("features", "feature-card-02.html");
+    loadComponent("features", "feature-card-03.html");
+    loadComponent("features", "feature-card-04.html");
+    loadComponent("features", "feature-card-05.html");
+    loadComponent("features", "feature-card-06.html");
 });
