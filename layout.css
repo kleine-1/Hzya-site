@@ -1,17 +1,31 @@
-/* Page wrapper */
+/* PAGE WRAPPER */
 .page-wrapper {
+    width: 100%;
     display: flex;
     justify-content: center;
-    padding: 40px 16px;
 }
 
-/* Page container */
 .page-container {
     width: 100%;
-    max-width: 1120px;
-    padding: 40px 32px;
-    background: var(--bg-elevated);
-    border-radius: var(--radius-lg);
-    border: 1px solid rgba(255,255,255,0.05);
-    box-shadow: var(--shadow-soft);
+    max-width: 1200px;
+    padding: 40px 20px;
 }
+
+/* PAGE SECTION */
+.page-section {
+    margin: 60px 0;
+}
+
+/* GRID SYSTEM */
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
